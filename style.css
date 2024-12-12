@@ -1,3 +1,157 @@
-body{
-    background-color: blue;
+.container {
+    display: grid;
+    grid-template-columns: minmax(0,1fr)repeat(6,minmax(0,175px))minmax(0,1);
+}
+main{
+    padding:0px;
+}
+
+body {
+    gap: 0px;
+    background-color: 011627;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    position: absolute;
+    grid-row:auto;
+    grid-row:auto;
+}
+
+.top-left-logo {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 67px;
+    height: auto;
+    border: solid;
+}
+
+nav {
+    background-color: #39375B;
+    text-align: center;
+    grid-row:1 / span 2;
+    
+}
+.navbar{
+    grid-column: 1;
+    grid-row :1 / span 6;
+}
+ul.navbar {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px ;
+    margin: 0px;
+    border: solid;
+    display: flex;
+    justify-content: left;
+    gap: 100px;
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 6;
+    list-style-type: none
+    margin: 0;
+}
+
+ul.navbar li a {
+    display: block;
+    color: #011627;
+    padding: 8px 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 45px;
+    background-color: #A3BAC3;
+    transition: background-color 0.3s, border-color 0.3s;
+    grid-column: auto;
+    grid-row: auto;
+}
+
+.navbar a:hover {
+    background-color: #011627;
+    border-color: #EAEBED;
+    color:#A3BAC3;
+}
+
+h1 {
+    font-size: 50px;
+    color: #EAEBED;
+    background-color: #011627;
+    text-align: center;
+    grid-column: 1 / span 6;
+    grid-row:2;
+}
+h3 {
+    font-size: 35px;
+    color: #EAEBED;
+    background-color: #333;
+}
+hr {
+    border: none;
+    border-top: 3px solid #011627;
+    margin: 0px 0px;
+    background-color: #333;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    color: white;
+    align-items: center;
+    background-color: #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.grade-box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+h3.cost {
+    font-size: 40px;
+    color: orange;
+    text-align: center;
+}
+
+.wolf {
+    font-size: 30px;
+    text-align: center;
+    color: #fff4de;
+}
+
+.png {
+    width: 650px;
+}
+
+.mash {
+    font-size: 30px;
+    text-align: right;
+    color: #fff4de;
+}
+
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 100px auto;
+    font-size: 30px;
+    color: #fff4de;
+}
+
+tr, th {
+    padding: 10px;
+    text-align: center;
+    border: none;
 }
