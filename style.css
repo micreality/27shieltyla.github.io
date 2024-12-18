@@ -9,7 +9,9 @@ main{
     border:solid #71B0B0 2px;
 
 }
-
+td, img{
+    width:600px;
+}
 body {
     gap: 0px;
     background-color: #A3BAC3;
@@ -45,20 +47,20 @@ nav {
 ul.navbar {
     list-style-type: none;
     padding: 0px 0px 0px 0px ;
-    margin: 0px;
+    margin: 10px;
     display: flex;
-    justify-content: left;
-    gap: 100px;
+    justify-content: center;
+    gap: 400px;
     grid-row: 1 / span 2;
     grid-column: 1 / span 6;
     list-style-type: none;
-    margin: 0;
+    margin: 0px 410px 0px 0px;
 }
 
 ul.navbar li a {
     display: block;
     color: #A3BAC3;
-    padding: 8px 200px;
+    padding: 3px 100px;
     text-align: center;
     text-decoration: none;
     font-size: 40px;
@@ -82,6 +84,7 @@ h1 {
     background-color: #011627;
     text-align: center;
     margin:5px 20px 15px;
+    border-radius: 45px;
 }
 h3 {
     font-size: 35px;
@@ -96,18 +99,25 @@ hr {
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0px 20px;
+    width: 1500px;
+    border-collapse: separate;
+    padding:10px;
+    margin: 10px 200px 10px;
     color: #EAEBED;
     align-items: center;
     background-color: #011627;
+    border-radius: 40 px;
+    border-radius: 45px;
+
 }
 
 th, td {
-    padding:;
+    padding:0px 0px;
     text-align: center;
     border: 1px solid #71B0B0;
+    border-radius: 45px;
+    width:750px;
+    height: 400px;
 }
 
 .grade-box {
