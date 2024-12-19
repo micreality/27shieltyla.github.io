@@ -89,7 +89,9 @@ h1 {
 h3 {
     font-size: 35px;
     color: #EAEBED;
-    background-color: #333;
+    background-color: #011627;
+    text-align: center;
+    margin:5px 20px 15px;
 }
 hr {
     border: none;
@@ -160,7 +162,7 @@ h3.cost {
     font-size: 30px;
     color: #fff4de;
 }
-
+/* this stuff is all for page fomat*/
 tr, th {
     padding: 10px;
     text-align: center;
@@ -172,7 +174,7 @@ footer{
 h6{
     color:#71B0B0;
 }
-main img {
+#border_img {
     width:90%;
     justify-content:center;
     margin:0px 60px;
