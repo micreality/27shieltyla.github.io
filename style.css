@@ -169,3 +169,18 @@ tr, th {
 footer{
     background-color:#011627;
 }
+h6{
+    color:#71B0B0;
+}
+main img {
+    width:90%;
+    justify-content:center;
+    margin:0px 60px;
+    border:dashed black 20px;
+}
+iframe{
+    margin:10px 60px;
+    width:90%;
+    height: 100%;
+
+}
