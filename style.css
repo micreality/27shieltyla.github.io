@@ -186,3 +186,17 @@ iframe{
     height: 100%;
 
 }
+#hehehehe{
+    
+    font-size:50px;
+}
+h2{
+    font-size:30px;
+    color:#011627;
+}
+a{
+    color:#011627
+}
+a:active{
+    color:red;
+}
